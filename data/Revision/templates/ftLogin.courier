@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>ftLogin</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftLogin</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/ftLogin.cshtml</ExtractToPath>
+            <Hash>9b5931a3c7c2e8b9184e9f05325cfe06</Hash>
+            <Name>~/views/ftLogin.cshtml</Name>
+            <PackageFromPath>~/views/ftLogin.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/ftLogin.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>ftLogin</Alias>
+    <MasterPagePath>~/masterpages/ftLogin.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1063</Id>
+</Template>
