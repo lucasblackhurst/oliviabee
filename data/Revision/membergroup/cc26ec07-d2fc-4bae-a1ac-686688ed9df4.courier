@@ -1,0 +1,15 @@
+﻿<MemberGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>cc26ec07-d2fc-4bae-a1ac-686688ed9df4</Id>
+        <ProviderId>4715aa16-fa35-426f-bb67-674043557875</ProviderId>
+    </ItemId>
+    <Name>Customers</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <UniqueId>cc26ec07-d2fc-4bae-a1ac-686688ed9df4</UniqueId>
+    <SortOrder>0</SortOrder>
+    <Level>0</Level>
+    <CreateDate>2016-11-01T10:56:04</CreateDate>
+    <User>admin</User>
+</MemberGroup>
