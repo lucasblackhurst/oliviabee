@@ -1,0 +1,86 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>8f06582c-a98c-49d9-a2b9-e0d9a938149a</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 8f06582c-a98c-49d9-a2b9-e0d9a938149a</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>d35d0852-49de-4994-bc9e-3e035837d740</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: fastTrack</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ftChangePassword</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: ftChangePassword</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>86075c91-79a6-4d72-9b5b-57fbd17a6401</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftChangePassword</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Alias>ftChangePassword</Alias>
+    <AllowedChildDocumentTypes />
+    <AllowedTemplates>
+        <string>ftChangePassword</string>
+    </AllowedTemplates>
+    <DefaultTemplate>ftChangePassword</DefaultTemplate>
+    <Description />
+    <Icon>icon-wand</Icon>
+    <MasterDocumentType>fastTrack</MasterDocumentType>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>1301f13d-a436-4870-8e14-e9bd9710e895</UniqueId>
+            <Alias>brief</Alias>
+            <DataTypeDefinitionId>8f06582c-a98c-49d9-a2b9-e0d9a938149a</DataTypeDefinitionId>
+            <Description>A brief description of the content.</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Brief</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Content</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>0c12cd8a-f5a4-466c-9aff-47e41c103aac</UniqueId>
+            <Alias>headline</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description>A headline for the content.</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Headline</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Content</TabCaption>
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>ftChangePassword</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Content</Text>
+            <UniqueId>75fb5ea3-8a1a-4363-a579-f7fe96cdefcc</UniqueId>
+        </Tab>
+    </Tabs>
+    <Thumbnail>folder.png</Thumbnail>
+    <UniqueId>86075c91-79a6-4d72-9b5b-57fbd17a6401</UniqueId>
+    <MasterDocumentTypes>
+        <string>fastTrack</string>
+    </MasterDocumentTypes>
+    <AllowAtRoot>false</AllowAtRoot>
+    <IsContainer>false</IsContainer>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,d35d0852-49de-4994-bc9e-3e035837d740,86075c91-79a6-4d72-9b5b-57fbd17a6401</PathGuids>
+</DocumentType>
