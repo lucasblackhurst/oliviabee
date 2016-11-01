@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>ftBillingAddress</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Billing Address</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/ftBillingAddress.cshtml</ExtractToPath>
+            <Hash>07bae13c065e6e54f27a551544cf58ef</Hash>
+            <Name>~/views/ftBillingAddress.cshtml</Name>
+            <PackageFromPath>~/views/ftBillingAddress.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/ftBillingAddress.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>ftBillingAddress</Alias>
+    <MasterPagePath>~/masterpages/ftBillingAddress.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1053</Id>
+</Template>
