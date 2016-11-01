@@ -1,0 +1,49 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>d35d0852-49de-4994-bc9e-3e035837d740</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: fastTrack</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ftBasket</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: ftBasket</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>ab26f980-af89-426b-9c9b-97973326cbe1</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftBasket</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Alias>ftBasket</Alias>
+    <AllowedChildDocumentTypes />
+    <AllowedTemplates>
+        <string>ftBasket</string>
+    </AllowedTemplates>
+    <DefaultTemplate>ftBasket</DefaultTemplate>
+    <Description />
+    <Icon>icon-shopping-basket</Icon>
+    <MasterDocumentType>fastTrack</MasterDocumentType>
+    <Properties />
+    <Tabs />
+    <Thumbnail>folder.png</Thumbnail>
+    <UniqueId>ab26f980-af89-426b-9c9b-97973326cbe1</UniqueId>
+    <MasterDocumentTypes>
+        <string>fastTrack</string>
+    </MasterDocumentTypes>
+    <AllowAtRoot>false</AllowAtRoot>
+    <IsContainer>false</IsContainer>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,d35d0852-49de-4994-bc9e-3e035837d740,ab26f980-af89-426b-9c9b-97973326cbe1</PathGuids>
+</DocumentType>
