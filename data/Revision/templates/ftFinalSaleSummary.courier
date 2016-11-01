@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>ftFinalSaleSummary</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Final Sale Summary</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/ftFinalSaleSummary.cshtml</ExtractToPath>
+            <Hash>6e2248d5cadebfc2c3af8e8b1713ba9d</Hash>
+            <Name>~/views/ftFinalSaleSummary.cshtml</Name>
+            <PackageFromPath>~/views/ftFinalSaleSummary.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/ftFinalSaleSummary.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>ftFinalSaleSummary</Alias>
+    <MasterPagePath>~/masterpages/ftFinalSaleSummary.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1055</Id>
+</Template>
