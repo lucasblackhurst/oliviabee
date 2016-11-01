@@ -9,7 +9,68 @@
     var accountPage = ExampleUiHelper.Content.GetAccount();
 }
 <div class="navbar navbar-inverse">
-    <div class="container">
+
+
+
+<section id="header-main">
+			<div class="container">
+				<div class="header-wrap">
+					<div class="pull-left wrap-logo">
+					  <?php if ($logo) { ?>
+					  <div id="logo"><a href="<?php echo $home; ?>"><img src="<?php echo $logo; ?>" title="<?php echo $name; ?>" alt="<?php echo $name; ?>" /></a></div>
+					  <?php } ?>
+					
+					</div>
+					<div class="pull-left wrap-menu">
+
+				<!--menu-->			
+<div id="pav-mainnav">
+
+		
+			<div class="navbar-inverse">
+				
+			
+		 	<div class="navbar navbar-inverse"> 
+				<nav id="mainmenutop" role="navigation"> 
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						</button>
+					</div>
+
+				  	<div class="collapse navbar-collapse navbar-ex1-collapse pav-megamenu">
+						<ul class="nav navbar-nav">
+						  	 <li@(IsActive(storeRoot.Id))><a href="@Url.Content("~/")">Home</a></li>
+
+                                @if (catalogRoot != null)
+                                {
+                                    <li@(IsActive(catalogRoot.Id))>
+                                        <a href="@catalogRoot.Url">@catalogRoot.Name</a>
+                                    </li>
+                                }
+						</ul>	
+					</div>	
+				</nav>
+			
+  			</div>   
+		
+		
+        </div>
+    </div>
+
+					
+			
+</section>
+
+
+
+
+
+
+    <!--<div class="container" id="mainmenutop">
 
         <a class="navbar-brand navbar-right mui-store-name" href="@storeRoot.Url">@Umbraco.Field("storeName", recursive: true)</a>
 
@@ -24,7 +85,7 @@
 
 
 
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse navbar-ex1-collapse pav-megamenu">
             <ul class="nav navbar-nav">
                 <li@(IsActive(storeRoot.Id))><a href="@Url.Content("~/")">Home</a></li>
 
@@ -70,7 +131,7 @@
             </ul>
 
         </div>
-    </div>
+    </div>-->
 </div>
 
 @functions
