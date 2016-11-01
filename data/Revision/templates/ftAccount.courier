@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>ftAccount</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftAccount</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/ftAccount.cshtml</ExtractToPath>
+            <Hash>a7d7786a66c787227fef4e9975a70c5f</Hash>
+            <Name>~/views/ftAccount.cshtml</Name>
+            <PackageFromPath>~/views/ftAccount.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/ftAccount.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>ftAccount</Alias>
+    <MasterPagePath>~/masterpages/ftAccount.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1056</Id>
+</Template>
