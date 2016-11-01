@@ -1,0 +1,13 @@
+﻿<DataTypeContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>f869f63e-6c40-490c-876e-2033b4bcbcd4</Id>
+        <ProviderId>c0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Merchello</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <UniqueId>f869f63e-6c40-490c-876e-2033b4bcbcd4</UniqueId>
+    <ParentId>916724a5-173d-4619-b97e-b9de133dd6f5</ParentId>
+    <ParentType>ea7d8624-4cfe-4578-a871-24aa946bf34d</ParentType>
+</DataTypeContainer>
