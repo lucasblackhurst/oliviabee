@@ -1,0 +1,25 @@
+﻿<DataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>f869f63e-6c40-490c-876e-2033b4bcbcd4</Id>
+                <ProviderId>c0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Parent folder: f869f63e-6c40-490c-876e-2033b4bcbcd4</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>a70ec8be-9d62-4164-a4f4-e1e1f96e3f29</Id>
+        <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Merchello Product List View</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <DataBaseDataType>Nvarchar</DataBaseDataType>
+    <PropertyEditorAlias>Merchello.ProductListView</PropertyEditorAlias>
+    <Prevalues />
+    <UniqueID>a70ec8be-9d62-4164-a4f4-e1e1f96e3f29</UniqueID>
+    <ParentContainerId>f869f63e-6c40-490c-876e-2033b4bcbcd4</ParentContainerId>
+</DataType>
