@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>ftCheckout</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftCheckout</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/ftCheckout.cshtml</ExtractToPath>
+            <Hash>aa7cdf4a2ad8dc541c14301f5f2b615c</Hash>
+            <Name>~/views/ftCheckout.cshtml</Name>
+            <PackageFromPath>~/views/ftCheckout.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/ftCheckout.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>ftCheckout</Alias>
+    <MasterPagePath>~/masterpages/ftCheckout.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1061</Id>
+</Template>
