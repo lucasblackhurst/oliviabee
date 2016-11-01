@@ -1,0 +1,77 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>9cb020ce-f122-43c9-9656-4d15ca0c33e8</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 9cb020ce-f122-43c9-9656-4d15ca0c33e8</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>d35d0852-49de-4994-bc9e-3e035837d740</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: fastTrack</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ftCatalog</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: ftCatalog</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>c6151d0e-b9c2-44fa-9982-137efc70978d</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftCatalog</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Alias>ftCatalog</Alias>
+    <AllowedChildDocumentTypes>
+        <string>ftCategory</string>
+    </AllowedChildDocumentTypes>
+    <AllowedTemplates>
+        <string>ftCatalog</string>
+    </AllowedTemplates>
+    <DefaultTemplate>ftCatalog</DefaultTemplate>
+    <Description />
+    <Icon>icon-book-alt</Icon>
+    <MasterDocumentType>fastTrack</MasterDocumentType>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>56d57942-6cdd-4542-8957-198770159847</UniqueId>
+            <Alias>categories</Alias>
+            <DataTypeDefinitionId>9cb020ce-f122-43c9-9656-4d15ca0c33e8</DataTypeDefinitionId>
+            <Mandatory>false</Mandatory>
+            <Name>Categories</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Content</TabCaption>
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>ftCatalog</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Content</Text>
+            <UniqueId>f78acdd5-338b-4311-b293-d0989e65970b</UniqueId>
+        </Tab>
+    </Tabs>
+    <Thumbnail>folder.png</Thumbnail>
+    <UniqueId>c6151d0e-b9c2-44fa-9982-137efc70978d</UniqueId>
+    <MasterDocumentTypes>
+        <string>fastTrack</string>
+    </MasterDocumentTypes>
+    <AllowAtRoot>false</AllowAtRoot>
+    <IsContainer>false</IsContainer>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,d35d0852-49de-4994-bc9e-3e035837d740,c6151d0e-b9c2-44fa-9982-137efc70978d</PathGuids>
+</DocumentType>
