@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>ftPayment</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Payment</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/ftPayment.cshtml</ExtractToPath>
+            <Hash>b938b2102e659a7d233ab6460496b766</Hash>
+            <Name>~/views/ftPayment.cshtml</Name>
+            <PackageFromPath>~/views/ftPayment.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/ftPayment.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>ftPayment</Alias>
+    <MasterPagePath>~/masterpages/ftPayment.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1067</Id>
+</Template>
