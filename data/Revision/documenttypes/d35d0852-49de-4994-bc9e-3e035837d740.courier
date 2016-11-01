@@ -1,0 +1,62 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>d35d0852-49de-4994-bc9e-3e035837d740</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>FastTrack</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Alias>fastTrack</Alias>
+    <AllowedChildDocumentTypes />
+    <AllowedTemplates />
+    <Description />
+    <Icon>icon-document</Icon>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>bffde811-8319-4f18-af3d-b63298771c4e</UniqueId>
+            <Alias>metaDescription</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description>The Meta Description</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Meta Description</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>SEO</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>f87f6eab-a412-42dd-bafe-1323f4ab93fd</UniqueId>
+            <Alias>pageTitle</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description>The HTML page title</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Page Title</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>SEO</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>72d6f267-6035-49c1-b0b4-c9aeddab7433</UniqueId>
+            <Alias>umbracoNaviHide</Alias>
+            <DataTypeDefinitionId>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</DataTypeDefinitionId>
+            <Description>Hide page in navigation</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Hide Page</Name>
+            <SortOrder>2</SortOrder>
+            <TabCaption>SEO</TabCaption>
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>fastTrack</ContentTypeAlias>
+            <SortOrder>5</SortOrder>
+            <Text>SEO</Text>
+            <UniqueId>892d7e2f-501d-4c21-9e7a-43bf83ee5a23</UniqueId>
+        </Tab>
+    </Tabs>
+    <Thumbnail>folder.png</Thumbnail>
+    <UniqueId>d35d0852-49de-4994-bc9e-3e035837d740</UniqueId>
+    <MasterDocumentTypes />
+    <AllowAtRoot>false</AllowAtRoot>
+    <IsContainer>false</IsContainer>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,d35d0852-49de-4994-bc9e-3e035837d740</PathGuids>
+</DocumentType>
