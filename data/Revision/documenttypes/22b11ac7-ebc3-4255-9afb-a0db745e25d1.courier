@@ -1,0 +1,125 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>8f06582c-a98c-49d9-a2b9-e0d9a938149a</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 8f06582c-a98c-49d9-a2b9-e0d9a938149a</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>a70ec8be-9d62-4164-a4f4-e1e1f96e3f29</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: a70ec8be-9d62-4164-a4f4-e1e1f96e3f29</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>d35d0852-49de-4994-bc9e-3e035837d740</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: fastTrack</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ftStore</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: ftStore</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>22b11ac7-ebc3-4255-9afb-a0db745e25d1</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftStore</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Alias>ftStore</Alias>
+    <AllowedChildDocumentTypes>
+        <string>ftAccount</string>
+        <string>ftBasket</string>
+        <string>ftCatalog</string>
+        <string>ftCheckout</string>
+        <string>ftForgotPassword</string>
+        <string>ftLogin</string>
+        <string>ftProduct</string>
+        <string>ftReceipt</string>
+        <string>ftStore</string>
+    </AllowedChildDocumentTypes>
+    <AllowedTemplates>
+        <string>ftStore</string>
+    </AllowedTemplates>
+    <DefaultTemplate>ftStore</DefaultTemplate>
+    <Description />
+    <Icon>icon-store</Icon>
+    <MasterDocumentType>fastTrack</MasterDocumentType>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>84990fc5-1f62-47f0-aa3d-9bdfb318fba2</UniqueId>
+            <Alias>brief</Alias>
+            <DataTypeDefinitionId>8f06582c-a98c-49d9-a2b9-e0d9a938149a</DataTypeDefinitionId>
+            <Description>A brief description of the content</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Brief</Name>
+            <SortOrder>2</SortOrder>
+            <TabCaption>Store Info</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>42693636-f55d-46fc-9ee0-642697fe5f51</UniqueId>
+            <Alias>featuredProducts</Alias>
+            <DataTypeDefinitionId>a70ec8be-9d62-4164-a4f4-e1e1f96e3f29</DataTypeDefinitionId>
+            <Description>A list of featured products</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Featured Products</Name>
+            <SortOrder>3</SortOrder>
+            <TabCaption>Store Info</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>05d7c2e2-95fc-4153-b7d3-4b9038ae422a</UniqueId>
+            <Alias>headline</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description>A headline for the content</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Headline</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Store Info</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>d6a709c5-942f-4603-ba9e-075b37b5efb3</UniqueId>
+            <Alias>storeName</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description>The name of the store</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Store Name</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Store Info</TabCaption>
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>ftStore</ContentTypeAlias>
+            <SortOrder>1</SortOrder>
+            <Text>Store Info</Text>
+            <UniqueId>34129e98-3dc7-46a1-a532-37b854ada1cc</UniqueId>
+        </Tab>
+    </Tabs>
+    <Thumbnail>folder.png</Thumbnail>
+    <UniqueId>22b11ac7-ebc3-4255-9afb-a0db745e25d1</UniqueId>
+    <MasterDocumentTypes>
+        <string>fastTrack</string>
+    </MasterDocumentTypes>
+    <AllowAtRoot>true</AllowAtRoot>
+    <IsContainer>false</IsContainer>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,d35d0852-49de-4994-bc9e-3e035837d740,22b11ac7-ebc3-4255-9afb-a0db745e25d1</PathGuids>
+</DocumentType>
