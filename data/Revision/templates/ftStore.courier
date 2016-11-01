@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>ftStore</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftStore</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/ftStore.cshtml</ExtractToPath>
+            <Hash>1657638c8c70837700cdacd1e4c08db2</Hash>
+            <Name>~/views/ftStore.cshtml</Name>
+            <PackageFromPath>~/views/ftStore.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/ftStore.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>ftStore</Alias>
+    <MasterPagePath>~/masterpages/ftStore.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1066</Id>
+</Template>
