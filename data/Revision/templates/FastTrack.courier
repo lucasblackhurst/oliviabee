@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>FastTrack</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>FastTrack</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/FastTrack.cshtml</ExtractToPath>
+            <Hash>1e11a602f2d9c9120152147bd6187f22</Hash>
+            <Name>~/views/FastTrack.cshtml</Name>
+            <PackageFromPath>~/views/FastTrack.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/FastTrack.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>FastTrack</Alias>
+    <MasterPagePath>~/masterpages/FastTrack.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1054</Id>
+</Template>
