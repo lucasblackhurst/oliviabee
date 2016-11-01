@@ -1,0 +1,25 @@
+﻿<DataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>f869f63e-6c40-490c-876e-2033b4bcbcd4</Id>
+                <ProviderId>c0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Parent folder: f869f63e-6c40-490c-876e-2033b4bcbcd4</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>89f7127d-542d-44e2-aa0d-f33aec55f2e4</Id>
+        <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>Merchello Checkout Stage</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <DataBaseDataType>Nvarchar</DataBaseDataType>
+    <PropertyEditorAlias>Merchello.CheckoutWorkflowStagePicker</PropertyEditorAlias>
+    <Prevalues />
+    <UniqueID>89f7127d-542d-44e2-aa0d-f33aec55f2e4</UniqueID>
+    <ParentContainerId>f869f63e-6c40-490c-876e-2033b4bcbcd4</ParentContainerId>
+</DataType>
