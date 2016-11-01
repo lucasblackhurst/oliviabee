@@ -9,7 +9,7 @@
     <Resources>
         <Resource>
             <ExtractToPath>~/views/FastTrack.cshtml</ExtractToPath>
-            <Hash>c9bd1b57d8b20fe0f49f1b226e5318ec</Hash>
+            <Hash>59591d833c7ca22c3114d8907fc550a2</Hash>
             <Name>~/views/FastTrack.cshtml</Name>
             <PackageFromPath>~/views/FastTrack.cshtml</PackageFromPath>
             <TemporaryStoragePath>/views/FastTrack.cshtml</TemporaryStoragePath>

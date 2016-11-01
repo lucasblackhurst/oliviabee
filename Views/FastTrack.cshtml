@@ -12,17 +12,18 @@
 
 </head>
 <body>
-<div class="wrapper">
-    @Html.Partial("_Header")
-    <div class="container">
-        @RenderBody()
-    </div>
-    <div class="push"></div>
-</div>
-<div class="footer">
-    @Html.Partial("_Footer")
-</div>
-
+<section id="page" class="offcanvas-pusher" role="main">
+	<section id="header">
+		@Html.Partial("_Header")
+		<div class="container">
+			@RenderBody()
+		</div>
+		<div class="push"></div>
+	</section>
+	<div class="footer">
+		@Html.Partial("_Footer")
+	</div>
+</section>
 
 <!-- MUI dependencies -->
 <script src="~/Scripts/jquery-1.10.2.min.js"></script>
