@@ -1,0 +1,24 @@
+﻿<Template xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies />
+    <ItemId>
+        <Id>ftBasket</Id>
+        <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftBasket</Name>
+    <ItemType>Item</ItemType>
+    <Resources>
+        <Resource>
+            <ExtractToPath>~/views/ftBasket.cshtml</ExtractToPath>
+            <Hash>a93d4e06fcb3a0cf34c9a66079132ebe</Hash>
+            <Name>~/views/ftBasket.cshtml</Name>
+            <PackageFromPath>~/views/ftBasket.cshtml</PackageFromPath>
+            <TemporaryStoragePath>/views/ftBasket.cshtml</TemporaryStoragePath>
+            <VirtualResource>false</VirtualResource>
+            <NotFound>false</NotFound>
+        </Resource>
+    </Resources>
+    <Alias>ftBasket</Alias>
+    <MasterPagePath>~/masterpages/ftBasket.master</MasterPagePath>
+    <ParentTemplateId>0</ParentTemplateId>
+    <Id>1057</Id>
+</Template>
