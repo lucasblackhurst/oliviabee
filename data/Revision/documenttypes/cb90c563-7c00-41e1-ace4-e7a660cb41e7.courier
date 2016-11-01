@@ -1,0 +1,86 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>8f06582c-a98c-49d9-a2b9-e0d9a938149a</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 8f06582c-a98c-49d9-a2b9-e0d9a938149a</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>d35d0852-49de-4994-bc9e-3e035837d740</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: fastTrack</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ftForgotPassword</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: ftForgotPassword</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>cb90c563-7c00-41e1-ace4-e7a660cb41e7</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftForgotPassword</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Alias>ftForgotPassword</Alias>
+    <AllowedChildDocumentTypes />
+    <AllowedTemplates>
+        <string>ftForgotPassword</string>
+    </AllowedTemplates>
+    <DefaultTemplate>ftForgotPassword</DefaultTemplate>
+    <Description />
+    <Icon>icon-message-unopened</Icon>
+    <MasterDocumentType>fastTrack</MasterDocumentType>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>4b366c15-0039-48ed-93a3-a140ab9d89b3</UniqueId>
+            <Alias>brief</Alias>
+            <DataTypeDefinitionId>8f06582c-a98c-49d9-a2b9-e0d9a938149a</DataTypeDefinitionId>
+            <Description>A brief description of the content.</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Brief</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Content</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>392c90ab-7fa3-4177-b8e5-3e7e32e192b3</UniqueId>
+            <Alias>headline</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description>A headline for the content.</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Headline</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Content</TabCaption>
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>ftForgotPassword</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Content</Text>
+            <UniqueId>992e820a-e3f6-4275-81e7-e98244c7ad64</UniqueId>
+        </Tab>
+    </Tabs>
+    <Thumbnail>folder.png</Thumbnail>
+    <UniqueId>cb90c563-7c00-41e1-ace4-e7a660cb41e7</UniqueId>
+    <MasterDocumentTypes>
+        <string>fastTrack</string>
+    </MasterDocumentTypes>
+    <AllowAtRoot>false</AllowAtRoot>
+    <IsContainer>false</IsContainer>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,d35d0852-49de-4994-bc9e-3e035837d740,cb90c563-7c00-41e1-ace4-e7a660cb41e7</PathGuids>
+</DocumentType>
