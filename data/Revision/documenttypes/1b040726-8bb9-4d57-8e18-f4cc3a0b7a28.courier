@@ -1,0 +1,88 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>8f06582c-a98c-49d9-a2b9-e0d9a938149a</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 8f06582c-a98c-49d9-a2b9-e0d9a938149a</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>d35d0852-49de-4994-bc9e-3e035837d740</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: fastTrack</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ftAccount</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: ftAccount</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>1b040726-8bb9-4d57-8e18-f4cc3a0b7a28</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftAccount</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Alias>ftAccount</Alias>
+    <AllowedChildDocumentTypes>
+        <string>ftChangePassword</string>
+    </AllowedChildDocumentTypes>
+    <AllowedTemplates>
+        <string>ftAccount</string>
+    </AllowedTemplates>
+    <DefaultTemplate>ftAccount</DefaultTemplate>
+    <Description />
+    <Icon>icon-lock</Icon>
+    <MasterDocumentType>fastTrack</MasterDocumentType>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>f7bb14cf-1685-4521-a050-7908fd7a4499</UniqueId>
+            <Alias>brief</Alias>
+            <DataTypeDefinitionId>8f06582c-a98c-49d9-a2b9-e0d9a938149a</DataTypeDefinitionId>
+            <Description>A brief description of the content</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Brief</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Content</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>7c844231-8b55-41a7-8187-8710b5828978</UniqueId>
+            <Alias>headline</Alias>
+            <DataTypeDefinitionId>0cc0eba1-9960-42c9-bf9b-60e150b429ae</DataTypeDefinitionId>
+            <Description>The content headline</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Headline</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Content</TabCaption>
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>ftAccount</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Content</Text>
+            <UniqueId>aa57aecb-94ca-4d81-afe6-fbcd3038c012</UniqueId>
+        </Tab>
+    </Tabs>
+    <Thumbnail>folder.png</Thumbnail>
+    <UniqueId>1b040726-8bb9-4d57-8e18-f4cc3a0b7a28</UniqueId>
+    <MasterDocumentTypes>
+        <string>fastTrack</string>
+    </MasterDocumentTypes>
+    <AllowAtRoot>false</AllowAtRoot>
+    <IsContainer>false</IsContainer>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,d35d0852-49de-4994-bc9e-3e035837d740,1b040726-8bb9-4d57-8e18-f4cc3a0b7a28</PathGuids>
+</DocumentType>
