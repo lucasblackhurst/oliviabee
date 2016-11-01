@@ -13,12 +13,16 @@
 </head>
 <body>
 <section id="page" class="offcanvas-pusher" role="main">
-	<section id="header">
-		@Html.Partial("_Header")
-		<div class="container">
-			@RenderBody()
-		</div>
-		<div class="push"></div>
+	<section id="header-main">
+			<div class="container">
+				<div class="header-wrap">
+					@Html.Partial("_Header")
+					<div class="container">
+						@RenderBody()
+					</div>
+					<div class="push"></div>
+				</div>
+			</div>
 	</section>
 	<div class="footer">
 		@Html.Partial("_Footer")
