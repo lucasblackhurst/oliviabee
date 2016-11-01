@@ -1,0 +1,139 @@
+﻿<DocumentType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Dependencies>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>56496381-97df-4862-ba3a-ac4e3b4506d6</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 56496381-97df-4862-ba3a-ac4e3b4506d6</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>8f06582c-a98c-49d9-a2b9-e0d9a938149a</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 8f06582c-a98c-49d9-a2b9-e0d9a938149a</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>93929b9a-93a2-4e2a-b239-d99334440a59</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: 93929b9a-93a2-4e2a-b239-d99334440a59</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ca90c950-0aff-4e72-b976-a30b1ac57dad</Id>
+                <ProviderId>e0472592-e73b-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Datatype: ca90c950-0aff-4e72-b976-a30b1ac57dad</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>d35d0852-49de-4994-bc9e-3e035837d740</Id>
+                <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Document type: fastTrack</Name>
+            <ForceHashCheck>true</ForceHashCheck>
+        </Dependency>
+        <Dependency>
+            <IsChild>false</IsChild>
+            <ItemId>
+                <Id>ftProduct</Id>
+                <ProviderId>25867200-e67e-11df-9492-0800200c9a66</ProviderId>
+            </ItemId>
+            <Name>Template: ftProduct</Name>
+            <ForceHashCheck>false</ForceHashCheck>
+        </Dependency>
+    </Dependencies>
+    <ItemId>
+        <Id>3bab9e22-51e7-46db-8327-fd2d1bd13430</Id>
+        <ProviderId>d8e6ad84-e73a-11df-9492-0800200c9a66</ProviderId>
+    </ItemId>
+    <Name>ftProduct</Name>
+    <ItemType>Item</ItemType>
+    <Resources />
+    <Alias>ftProduct</Alias>
+    <AllowedChildDocumentTypes />
+    <AllowedTemplates>
+        <string>ftProduct</string>
+    </AllowedTemplates>
+    <DefaultTemplate>ftProduct</DefaultTemplate>
+    <Description />
+    <Icon>icon-box</Icon>
+    <MasterDocumentType>fastTrack</MasterDocumentType>
+    <Properties>
+        <ContentTypeProperty>
+            <UniqueId>f1001915-e37a-449d-9a9b-4419b9f4c017</UniqueId>
+            <Alias>brief</Alias>
+            <DataTypeDefinitionId>8f06582c-a98c-49d9-a2b9-e0d9a938149a</DataTypeDefinitionId>
+            <Description>A short description of the product.  Used in listings and info boxes.</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Brief</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Info</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>c2f7a883-d670-448b-bc24-3388ee8524d7</UniqueId>
+            <Alias>description</Alias>
+            <DataTypeDefinitionId>ca90c950-0aff-4e72-b976-a30b1ac57dad</DataTypeDefinitionId>
+            <Description>The full description of the product.</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Description</Name>
+            <SortOrder>1</SortOrder>
+            <TabCaption>Info</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>a06db3b3-f54c-40e6-ac63-8ff5dcc8cf08</UniqueId>
+            <Alias>image</Alias>
+            <DataTypeDefinitionId>93929b9a-93a2-4e2a-b239-d99334440a59</DataTypeDefinitionId>
+            <Description>An image or photo representation of the product</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Image</Name>
+            <SortOrder>0</SortOrder>
+            <TabCaption>Images</TabCaption>
+        </ContentTypeProperty>
+        <ContentTypeProperty>
+            <UniqueId>f06158f6-4831-42d0-92b6-7fd834a56065</UniqueId>
+            <Alias>relatedProducts</Alias>
+            <DataTypeDefinitionId>56496381-97df-4862-ba3a-ac4e3b4506d6</DataTypeDefinitionId>
+            <Description>Allows for relating products to this product</Description>
+            <Mandatory>false</Mandatory>
+            <Name>Related Products</Name>
+            <SortOrder>2</SortOrder>
+            <TabCaption>Info</TabCaption>
+        </ContentTypeProperty>
+    </Properties>
+    <Tabs>
+        <Tab>
+            <ContentTypeAlias>ftProduct</ContentTypeAlias>
+            <SortOrder>1</SortOrder>
+            <Text>Images</Text>
+            <UniqueId>ab61fb5c-84ca-4ede-a5ff-4f7a21de872c</UniqueId>
+        </Tab>
+        <Tab>
+            <ContentTypeAlias>ftProduct</ContentTypeAlias>
+            <SortOrder>0</SortOrder>
+            <Text>Info</Text>
+            <UniqueId>244067a1-d08f-4f7c-817e-bff5d51b2e97</UniqueId>
+        </Tab>
+    </Tabs>
+    <Thumbnail>folder.png</Thumbnail>
+    <UniqueId>3bab9e22-51e7-46db-8327-fd2d1bd13430</UniqueId>
+    <MasterDocumentTypes>
+        <string>fastTrack</string>
+    </MasterDocumentTypes>
+    <AllowAtRoot>false</AllowAtRoot>
+    <IsContainer>false</IsContainer>
+    <ParentContainerId xsi:nil="true" />
+    <PathGuids>-1,d35d0852-49de-4994-bc9e-3e035837d740,3bab9e22-51e7-46db-8327-fd2d1bd13430</PathGuids>
+</DocumentType>
